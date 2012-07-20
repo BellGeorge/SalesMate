@@ -2,6 +2,10 @@
 
 Sales Mate is a native iOS application that utilizes the Salesforce Mobile SDK. It authenticates via OAuth and utilizes Core Location, Core Data, Push Notifications, and the Streaming API.
 
+[Watch our Video Overview](http://www.youtube.com/watch?v=F4Vk6s4SKoA)
+
+[Heroku Push Notifications utilizing Urban Airship](https://github.com/dfriedm3/heroku-urbanairship)
+
 ### Overview
 
 Once authenticated, Sales Mate queries Salesforce for all Opportunity and Lead information including related Contacts and Accounts. All data is stored in Core Data allowing offline access to all downloaded information. Sales Mate also connects to the Streaming API and listens for new Lead creations.
